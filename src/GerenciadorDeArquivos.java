@@ -49,6 +49,7 @@ public class GerenciadorDeArquivos {
 
         int reprovados = totalAlunos - aprovados;
         double mediaGeral = somaNotas / totalAlunos;
+        
 
         FileWriter escritor = new FileWriter(resumoFile);
         escritor.write("Total de Alunos;Aprovados;Reprovados;Menor Nota;Maior Nota;Media Geral\n");
